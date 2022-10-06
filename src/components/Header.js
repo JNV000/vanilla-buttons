@@ -4,7 +4,7 @@ function Header() {
 }
 */
 
-function Header(msg = "Hello World") {
+function Header({ msg }) {
   return `<h1 class='text-red-500'>${msg}</h1>`;
 }
 
